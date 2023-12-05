@@ -168,15 +168,15 @@ main.cards section.card  {
 section.card{
     background: #c5e3f1;  
     border: 5px solid #ffffff1e;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
 }
 
 main .card:hover{
-    cursor: pointer;
+    cursor: default;
     box-shadow: 0px 10px 20px 0px #0000007a;  
     background-color: #88d9ff;  
-    transform: scale(1.05) translateY(-10px);
-    transition-duration: 0.5s ;
+    transform: scale(1.05) translateY(-5px);
+    transition-duration: 0.5s;
 	
 }
 
@@ -209,61 +209,37 @@ main .card:hover{
 
 /*------------------------------------------------------*/
 .about-project{
-    width: 100%;
-    max-width: 1000px;
+    flex-wrap: wrap;
+    display: flex; 
+    justify-content: center;
     margin: auto;
-
-
-
-
+    margin-top: 30px;
+    max-width: 800px;
 }
 
-
-
-/*------------------------------------------------------*/
-
-.about-text{
-    color: #0084ff75; 
-    font-size: 20px; 
-    max-width: 900px; 
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin-bottom: 3px;
-    margin-top: 40px;
-    width: 70%;
-    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.219);
-    border: 1px solid #ffffffce;
-    border-bottom: none;
-    background-color: #2ea9e252; 
-    backdrop-filter: blur(5px) saturate(100%);
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+.btn.btn-primary{
+    padding: 5px 40px;
+    background-color: #7584c5; 
+    border: 5px solid #ffffff13; 
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
     
 }
 
-.description{
-    height: auto;
-    text-align: justify; 
-    max-width: 900px; 
-    width: 70%;
-    padding: 30px;
-    box-shadow: 0px 0px 5px  rgba(0, 0, 0, 0.219); 
-    border: 1px solid #ffffffce;
-    border-top: none;
-    background-color: #2ea9e252; 
-    backdrop-filter: blur(5px) saturate(100%);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-
+.btn.btn-primary:hover{
+    color: #000000;
+    background-color: #88d9ff;
+    border: 5px solid #ffffff13;
+    
 }
 
 /*------------------------------------------------------*/
-
 .box-end{
-    margin-top: 40px;
-    padding: 10px;
+    position: relative;
+    top: 100%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 5px;
 }
 
 .end-logo{
@@ -277,7 +253,3 @@ main .card:hover{
 
 }
 
-footer{
-   
-    
-}
