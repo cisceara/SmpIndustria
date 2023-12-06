@@ -162,12 +162,11 @@ main.cards section.card  {
     margin-left: 15px;
     box-shadow: 0px 5px 10px 0px #00000033; 
     
-    
 }
 
 section.card{
-    background: #c5e3f1;  
-    border: 5px solid #ffffff1e;
+    background: linear-gradient(90deg, #ffffff 0%, #7481c3 100%);
+    border: 1px solid #ffffff;
     color: rgb(0, 0, 0); 
 }
 
@@ -177,7 +176,6 @@ main .card:hover{
     background-color: #88d9ff;  
     transform: scale(1.05) translateY(-5px);
     transition-duration: 0.5s;
-	
 }
 
 
@@ -214,23 +212,36 @@ main .card:hover{
     justify-content: center;
     margin: auto;
     margin-top: 30px;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .btn.btn-primary{
+    margin: 0px 20px;
+    font-size: 15px;
     padding: 5px 40px;
-    background-color: #7584c5; 
-    border: 5px solid #ffffff13; 
+    background-color: #7481c3;  
+    color: #ffffff;
+    border: 5px solid #ffffff0c;  
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.192);
-    border-radius: 20px;
+    border-radius: 15px; 
+    max-width: 400px;
+    
     
 }
 
 .btn.btn-primary:hover{
     color: #000000;
-    background-color: #88d9ff;
-    border: 5px solid #ffffff13;
+    background-color: #81d7ff; 
+    border: 5px solid #ffffff0c;  
+    transform: scale(1.1) ;
+    transition-duration: 0.1s;  
     
+}
+
+.card.card-body{
+    text-align: center;
+    margin: 0px 30px;  
+    max-width: 900px;
 }
 
 /*------------------------------------------------------*/
