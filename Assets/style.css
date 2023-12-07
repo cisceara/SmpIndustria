@@ -163,19 +163,20 @@ main.cards section.card  {
     padding: 1.5rem;    
     border-radius: 20px; 
     max-height: 300px;
-    margin-left: 15px;
+    margin-left: 25px;
     box-shadow: 0px 5px 10px 0px #00000033; 
+    
 }
 
 section.card{
-    background: linear-gradient(90deg, #7481c37c 0%, #90e1ec73 100%);
-    border: 1px solid #ffffff;
+    backdrop-filter: blur(3px) saturate(100%);
+    background: linear-gradient(90deg, #249cff57 0%, #ffffff73 100%);
+    border: 1px solid white; 
     color: #000000;
 }
 
 main .card:hover{
     cursor: default;
-   
     background-color: #45c4ffa9;  
     transform: scale(1.08) translateY(-5px); 
     transition-duration: 0.5s;
@@ -213,38 +214,38 @@ main .card:hover{
     display: flex; 
     justify-content: center;
     margin: auto;
-    margin-top: 30px;
-    max-width: 650px; 
+    margin-top: 30px; 
+    max-width: 700px; 
 }
 
 .btn.btn-primary{
-    margin: 0px 30px;
     font-size: 15px;
-    padding: 5px 25px; 
-    background: #caeeff;
+    padding: 5px 20px; 
+    background: #249cff15;
     color: #000000; 
-    border: 3px solid #57b3ff10;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.082);
-    border-radius: 50px;  
+    border: 5px solid #249cff1f;
+    box-shadow: 0px 5px 10px 0px #0000002c;
+    border-radius: 10px;  
     max-width: 400px;
     
 }
 
 .btn.btn-primary:hover{
-    color: #0072a7;
-    background-color: #9ee0ff; 
-    border: 3px solid #57b3ff10;
-    transform: scale(1.1);
-    
+    color: #ffffff; 
+    background: #85d8ff;
+    border: 5px solid #249cff0e;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px 0px #0000002c;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575); 
 }
 
 .card.card-body{
+    margin-top: 10px; 
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: center;
-    margin: 0px 30px;  
     max-width: 900px;
-    background: #caeeff;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.082);
-    backdrop-filter: blur(5px) saturate(100%);
+    box-shadow: 0px 5px 10px 0px #0000002c;
     background-color: #249cff15;
     border-radius: 20px;
     border: 5px solid #249cff1f;
