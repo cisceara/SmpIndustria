@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -23,7 +24,7 @@
 }
   
 ::-webkit-scrollbar-thumb:hover {
-    background: #7e7e7e; 
+    background: #5c5c5c; 
   }
 
 .center{
@@ -140,14 +141,17 @@
 /*------------------------------------------------------*/
 
 section h3{ 
-    font-size: 20px;
-    font-weight: 700; 
+    font-size: 17px; 
+    font-weight: 600;  
 }
 
+section span{
+    font-size: 15px; 
+}
 
 main.cards {
     display: flex;
-    padding: 32px; 
+    margin: 40px;     
     
 }
 
@@ -156,25 +160,24 @@ main.cards section.card  {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1rem;    
+    padding: 1.5rem;    
     border-radius: 20px; 
-    max-height: 468px;
+    max-height: 300px;
     margin-left: 15px;
     box-shadow: 0px 5px 10px 0px #00000033; 
-    
 }
 
 section.card{
-    background: linear-gradient(90deg, #ffffff 0%, #7481c3 100%);
+    background: linear-gradient(90deg, #7481c37c 0%, #90e1ec73 100%);
     border: 1px solid #ffffff;
-    color: rgb(0, 0, 0); 
+    color: #000000;
 }
 
 main .card:hover{
     cursor: default;
-    box-shadow: 0px 10px 20px 0px #0000007a;  
-    background-color: #88d9ff;  
-    transform: scale(1.05) translateY(-5px);
+   
+    background-color: #45c4ffa9;  
+    transform: scale(1.08) translateY(-5px); 
     transition-duration: 0.5s;
 }
 
@@ -182,7 +185,6 @@ main .card:hover{
 @media screen and (max-width: 720px) {
     .box-dev{
         margin: 0px 40px; 
-
 
     }
 
@@ -212,29 +214,27 @@ main .card:hover{
     justify-content: center;
     margin: auto;
     margin-top: 30px;
-    max-width: 700px;
+    max-width: 650px; 
 }
 
 .btn.btn-primary{
-    margin: 0px 20px;
+    margin: 0px 30px;
     font-size: 15px;
-    padding: 5px 40px;
-    background-color: #7481c3;  
-    color: #ffffff;
-    border: 5px solid #ffffff0c;  
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.192);
-    border-radius: 15px; 
+    padding: 5px 25px; 
+    background: #caeeff;
+    color: #000000; 
+    border: 3px solid #57b3ff10;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.082);
+    border-radius: 50px;  
     max-width: 400px;
-    
     
 }
 
 .btn.btn-primary:hover{
-    color: #000000;
-    background-color: #81d7ff; 
-    border: 5px solid #ffffff0c;  
-    transform: scale(1.1) ;
-    transition-duration: 0.1s;  
+    color: #0072a7;
+    background-color: #9ee0ff; 
+    border: 3px solid #57b3ff10;
+    transform: scale(1.1);
     
 }
 
@@ -242,6 +242,12 @@ main .card:hover{
     text-align: center;
     margin: 0px 30px;  
     max-width: 900px;
+    background: #caeeff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.082);
+    backdrop-filter: blur(5px) saturate(100%);
+    background-color: #249cff15;
+    border-radius: 20px;
+    border: 5px solid #249cff1f;
 }
 
 /*------------------------------------------------------*/
