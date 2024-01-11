@@ -171,7 +171,7 @@ main.cards section.card  {
 section.card{
     backdrop-filter: blur(3px) saturate(100%);
     background: linear-gradient(90deg, #249cff57 0%, #ffffff73 100%);
-    border: 1px solid white; 
+    border: 1px solid rgba(255, 255, 255, 0.507); 
     color: #000000;
 }
 
@@ -220,13 +220,13 @@ main .card:hover{
 
 .btn.btn-primary{
     font-size: 15px;
-    padding: 5px 20px; 
+    padding: 3px 20px; 
     background: #249cff15;
     color: #000000; 
     border: 5px solid #249cff1f;
     box-shadow: 0px 5px 10px 0px #0000002c;
     border-radius: 10px;  
-    max-width: 400px;
+    max-width: 500px;
     
 }
 
